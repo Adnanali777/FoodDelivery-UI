@@ -14,11 +14,13 @@ import 'package:flutter/material.dart';
            children: [
 
              Container(
-               width: double.infinity,
-               height: 450,
+               margin: EdgeInsets.fromLTRB(30, 60, 30, 30),
+               padding: EdgeInsets.all(10),
+               width: MediaQuery.of(context).size.width * 0.7,
+               height: MediaQuery.of(context).size.height * 0.5,
                decoration: BoxDecoration(
                  image: DecorationImage(
-                   image: AssetImage('assets/image-2.png'),
+                   image: AssetImage('assets/scooter-man.png'),
                    fit: BoxFit.fill,
                  ),
                ),
